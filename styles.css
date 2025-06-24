@@ -12,6 +12,7 @@
 
 .vc-whisper-chat-button {
     scale: 1.085;
+    text-wrap: nowrap;
 }
 
 .vc-whisper-chat-button-on {
