@@ -1,0 +1,23 @@
+.vc-whisper-modal-content {
+    padding: 1em;
+}
+
+.vc-whisper-modal-header {
+    place-content: center space-between;
+}
+
+.vc-whisper-modal-title {
+    margin: 0;
+}
+
+.vc-whisper-chat-button {
+    scale: 1.085;
+}
+
+.vc-whisper-chat-button-on {
+    color: rgb(67 162 90)
+}
+
+.vc-whisper-chat-button-off {
+    color: inherit
+}
