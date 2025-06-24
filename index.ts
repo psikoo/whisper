@@ -1,12 +1,5 @@
-/*
- * Vencord, a Discord client mod
- * Copyright (c) 2025 Vendicated and contributors
- * SPDX-License-Identifier: GPL-3.0-or-later
- */
-
 import "./styles.css";
 
-import { Devs } from "@utils/constants";
 import definePlugin from "@utils/types";
 
 import { settings } from "./settings";
@@ -14,8 +7,8 @@ import { WhisperChatBarIcon } from "./whisperIcon";
 
 export default definePlugin({
     name: "Whispers",
-    description: "Automatically send subtext messages",
-    authors: [Devs.Cait],
+    description: "Set a prefix and suffix for your messages",
+    authors: [{ name: "Cait", id: 614870731322425374n }],
     settings,
 
     renderChatBarButton: WhisperChatBarIcon,

@@ -1,9 +1,3 @@
-/*
- * Vencord, a Discord client mod
- * Copyright (c) 2025 Vendicated and contributors
- * SPDX-License-Identifier: GPL-3.0-or-later
- */
-
 import { ChatBarButton, ChatBarButtonFactory } from "@api/ChatButtons";
 import { classNameFactory } from "@api/Styles";
 import { openModal } from "@utils/modal";
