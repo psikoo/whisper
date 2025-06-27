@@ -17,6 +17,6 @@ export default definePlugin({
         if (!settings.store.autoWhisper) return;
         if (!message.content) return;
 
-        message.content = settings.store.prefix + message.content + settings.store.suffix;
+        message.content = settings.store.prefix.replaceAll("\\n", "\n") + message.content + settings.store.suffix.replaceAll("\\n", "\n");
     }
 });
